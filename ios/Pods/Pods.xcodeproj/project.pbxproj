@@ -6,24 +6,47 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		E072630F8264279CF7E0421B11D2942B /* HEREMapsStarter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EA0C60C8F47DE437708ACCF3555CF59D /* Build configuration list for PBXAggregateTarget "HEREMapsStarter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = HEREMapsStarter;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		332DC68DD416C4D1EFF0E16F94A25354 /* Pods-RNHereMapsIos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB738252869910A7AF002F9CC722F505 /* Pods-RNHereMapsIos-dummy.m */; };
+		27533F671EB50A667C58E27952044B4A /* Pods-RNHereMapsIos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B86964DC1B59B4FADB98FA2C7957A53 /* Pods-RNHereMapsIos-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5A4E5FA1B8CF4A930C4090D9F3AA3C3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E072630F8264279CF7E0421B11D2942B;
+			remoteInfo = HEREMapsStarter;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		03A1109DE5AC054452F010274E229320 /* Pods-RNHereMapsIos-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNHereMapsIos-resources.sh"; sourceTree = "<group>"; };
-		4C6D819045DD8174C142186F2938280E /* Pods-RNHereMapsIos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RNHereMapsIos-acknowledgements.markdown"; sourceTree = "<group>"; };
-		77CFE1832B2B66341EFAB306DFE23E8D /* Pods-RNHereMapsIos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNHereMapsIos.debug.xcconfig"; sourceTree = "<group>"; };
-		7BB789769BE1FE15CC623176E97CF4D8 /* NMAKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NMAKit.framework; path = framework/NMAKit.framework; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9B77013C6F768127688C352A145F21B4 /* Pods-RNHereMapsIos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNHereMapsIos.release.xcconfig"; sourceTree = "<group>"; };
-		D63B543525137CB4BE8DFBD6B1F257DB /* libPods-RNHereMapsIos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RNHereMapsIos.a"; path = "libPods-RNHereMapsIos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB738252869910A7AF002F9CC722F505 /* Pods-RNHereMapsIos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RNHereMapsIos-dummy.m"; sourceTree = "<group>"; };
-		F20AC0172E42DDF2B8FD909FAF4D8656 /* Pods-RNHereMapsIos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RNHereMapsIos-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D83EB3D63E4FEF1154F1242407492EB /* NMAKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NMAKit.framework; path = framework/NMAKit.framework; sourceTree = "<group>"; };
+		1B86964DC1B59B4FADB98FA2C7957A53 /* Pods-RNHereMapsIos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RNHereMapsIos-dummy.m"; sourceTree = "<group>"; };
+		49553AED4A9DED7AD9EFA764DC3CE0BA /* Pods-RNHereMapsIos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNHereMapsIos.release.xcconfig"; sourceTree = "<group>"; };
+		858A97DC1A8F200FA6A33E2433FD9F2E /* HEREMapsStarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HEREMapsStarter.release.xcconfig; sourceTree = "<group>"; };
+		8A372280CC49014E1C7E6F071212266F /* Pods-RNHereMapsIos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNHereMapsIos.debug.xcconfig"; sourceTree = "<group>"; };
+		92F7F33689B7C50B84A2F4C38D167742 /* Pods-RNHereMapsIos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RNHereMapsIos-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B313E8B039AF1978B754C64F72A5F195 /* HEREMapsStarter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HEREMapsStarter.debug.xcconfig; sourceTree = "<group>"; };
+		BA768AF7FFAF71472EB159D6A219FA84 /* libPods-RNHereMapsIos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RNHereMapsIos.a"; path = "libPods-RNHereMapsIos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD11A1A7B604F68E7501DCD1E10A6D0 /* Pods-RNHereMapsIos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RNHereMapsIos-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9057A0DADEF17A81F64D86A2B3E018F8 /* Frameworks */ = {
+		6AA3B1A109C263A2D5E30C2E78205AF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,83 +56,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		083AEFD0357D87367A991DC876985CCD /* Products */ = {
+		0BD94132F4321213A014FC7E9E3117BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D63B543525137CB4BE8DFBD6B1F257DB /* libPods-RNHereMapsIos.a */,
+				BA768AF7FFAF71472EB159D6A219FA84 /* libPods-RNHereMapsIos.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+		288623F118ED4EBB1323910E05BCF30B /* HEREMapsStarter */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2052C07E81C18C466356E034E68AEA80 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7BB789769BE1FE15CC623176E97CF4D8 /* NMAKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2C62ECE38A1FFAD4E89C16A8A1DD5614 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F71CF5AEA6E0BD8438EF0C4A626A5F65 /* Pods-RNHereMapsIos */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				AB60CC51CB6FA7153B66379E65659B4C /* Pods */,
-				083AEFD0357D87367A991DC876985CCD /* Products */,
-				2C62ECE38A1FFAD4E89C16A8A1DD5614 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		AB60CC51CB6FA7153B66379E65659B4C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E830E2A6D407EA4A153D0F599842F41D /* HEREMapsStarter */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E830E2A6D407EA4A153D0F599842F41D /* HEREMapsStarter */ = {
-			isa = PBXGroup;
-			children = (
-				2052C07E81C18C466356E034E68AEA80 /* Frameworks */,
+				55FC59FD4214BA328F6DD6FB7EDEF262 /* Frameworks */,
+				EA1172596152E0E4F1EC6962DD6F17F3 /* Support Files */,
 			);
 			name = HEREMapsStarter;
 			path = HEREMapsStarter;
 			sourceTree = "<group>";
 		};
-		F71CF5AEA6E0BD8438EF0C4A626A5F65 /* Pods-RNHereMapsIos */ = {
+		3DBB505DD3E6781C447C3C9F2047CE5B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4C6D819045DD8174C142186F2938280E /* Pods-RNHereMapsIos-acknowledgements.markdown */,
-				F20AC0172E42DDF2B8FD909FAF4D8656 /* Pods-RNHereMapsIos-acknowledgements.plist */,
-				EB738252869910A7AF002F9CC722F505 /* Pods-RNHereMapsIos-dummy.m */,
-				03A1109DE5AC054452F010274E229320 /* Pods-RNHereMapsIos-resources.sh */,
-				77CFE1832B2B66341EFAB306DFE23E8D /* Pods-RNHereMapsIos.debug.xcconfig */,
-				9B77013C6F768127688C352A145F21B4 /* Pods-RNHereMapsIos.release.xcconfig */,
+				288623F118ED4EBB1323910E05BCF30B /* HEREMapsStarter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55FC59FD4214BA328F6DD6FB7EDEF262 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D83EB3D63E4FEF1154F1242407492EB /* NMAKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7248E31F0562AC9B70E18D2A6D81F8B1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA44DC0124487937CD014967B8286C49 /* Pods-RNHereMapsIos */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BA44DC0124487937CD014967B8286C49 /* Pods-RNHereMapsIos */ = {
+			isa = PBXGroup;
+			children = (
+				CDD11A1A7B604F68E7501DCD1E10A6D0 /* Pods-RNHereMapsIos-acknowledgements.markdown */,
+				92F7F33689B7C50B84A2F4C38D167742 /* Pods-RNHereMapsIos-acknowledgements.plist */,
+				1B86964DC1B59B4FADB98FA2C7957A53 /* Pods-RNHereMapsIos-dummy.m */,
+				8A372280CC49014E1C7E6F071212266F /* Pods-RNHereMapsIos.debug.xcconfig */,
+				49553AED4A9DED7AD9EFA764DC3CE0BA /* Pods-RNHereMapsIos.release.xcconfig */,
 			);
 			name = "Pods-RNHereMapsIos";
 			path = "Target Support Files/Pods-RNHereMapsIos";
 			sourceTree = "<group>";
 		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				3DBB505DD3E6781C447C3C9F2047CE5B /* Pods */,
+				0BD94132F4321213A014FC7E9E3117BB /* Products */,
+				7248E31F0562AC9B70E18D2A6D81F8B1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA1172596152E0E4F1EC6962DD6F17F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B313E8B039AF1978B754C64F72A5F195 /* HEREMapsStarter.debug.xcconfig */,
+				858A97DC1A8F200FA6A33E2433FD9F2E /* HEREMapsStarter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HEREMapsStarter";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		65AE2D13832289B4FC9052C38A230817 /* Headers */ = {
+		A1EC0047511435628ACF2B17F329CF5C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -119,64 +152,76 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		58F53B1DB67BBCA91D679A623EDF3727 /* Pods-RNHereMapsIos */ = {
+		0B5036FCFD867B0159D05DFBD00CB213 /* Pods-RNHereMapsIos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A65DEA08390FF839EEDDD5EC7A1B1604 /* Build configuration list for PBXNativeTarget "Pods-RNHereMapsIos" */;
+			buildConfigurationList = 24E48D08B8D09E94661DF168529BC32A /* Build configuration list for PBXNativeTarget "Pods-RNHereMapsIos" */;
 			buildPhases = (
-				65AE2D13832289B4FC9052C38A230817 /* Headers */,
-				0F88B299E2651B189D88728069E528C5 /* Sources */,
-				9057A0DADEF17A81F64D86A2B3E018F8 /* Frameworks */,
+				A1EC0047511435628ACF2B17F329CF5C /* Headers */,
+				40E4E5A37B7EC94A4C47F4CEFC9D215C /* Sources */,
+				6AA3B1A109C263A2D5E30C2E78205AF9 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BD7DC705920F882ABBCA7AC46D95535E /* PBXTargetDependency */,
 			);
 			name = "Pods-RNHereMapsIos";
 			productName = "Pods-RNHereMapsIos";
-			productReference = D63B543525137CB4BE8DFBD6B1F257DB /* libPods-RNHereMapsIos.a */;
+			productReference = BA768AF7FFAF71472EB159D6A219FA84 /* libPods-RNHereMapsIos.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 083AEFD0357D87367A991DC876985CCD /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0BD94132F4321213A014FC7E9E3117BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58F53B1DB67BBCA91D679A623EDF3727 /* Pods-RNHereMapsIos */,
+				E072630F8264279CF7E0421B11D2942B /* HEREMapsStarter */,
+				0B5036FCFD867B0159D05DFBD00CB213 /* Pods-RNHereMapsIos */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0F88B299E2651B189D88728069E528C5 /* Sources */ = {
+		40E4E5A37B7EC94A4C47F4CEFC9D215C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				332DC68DD416C4D1EFF0E16F94A25354 /* Pods-RNHereMapsIos-dummy.m in Sources */,
+				27533F671EB50A667C58E27952044B4A /* Pods-RNHereMapsIos-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		BD7DC705920F882ABBCA7AC46D95535E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HEREMapsStarter;
+			target = E072630F8264279CF7E0421B11D2942B /* HEREMapsStarter */;
+			targetProxy = 5A4E5FA1B8CF4A930C4090D9F3AA3C3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		30AF03DF784D6D5E84F3EE6DC4B906E1 /* Release */ = {
+		2AD6C6619D5A7F075678D2D60714F7B7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B77013C6F768127688C352A145F21B4 /* Pods-RNHereMapsIos.release.xcconfig */;
+			baseConfigurationReference = 49553AED4A9DED7AD9EFA764DC3CE0BA /* Pods-RNHereMapsIos.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -196,7 +241,20 @@
 			};
 			name = Release;
 		};
-		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
+		4176FDD21D892F3D373DD120B6006117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B313E8B039AF1978B754C64F72A5F195 /* HEREMapsStarter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,8 +286,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -251,32 +307,14 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		AFE501988BDE1BA41A74661D78A638FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77CFE1832B2B66341EFAB306DFE23E8D /* Pods-RNHereMapsIos.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -308,8 +346,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -336,32 +372,78 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B494361543FC3BF7CB68BAE359AEFA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 858A97DC1A8F200FA6A33E2433FD9F2E /* HEREMapsStarter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB14D8FDE9ADE63F0A61FF85D33B7EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A372280CC49014E1C7E6F071212266F /* Pods-RNHereMapsIos.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		24E48D08B8D09E94661DF168529BC32A /* Build configuration list for PBXNativeTarget "Pods-RNHereMapsIos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
-				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
+				BB14D8FDE9ADE63F0A61FF85D33B7EA6 /* Debug */,
+				2AD6C6619D5A7F075678D2D60714F7B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A65DEA08390FF839EEDDD5EC7A1B1604 /* Build configuration list for PBXNativeTarget "Pods-RNHereMapsIos" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AFE501988BDE1BA41A74661D78A638FE /* Debug */,
-				30AF03DF784D6D5E84F3EE6DC4B906E1 /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0C60C8F47DE437708ACCF3555CF59D /* Build configuration list for PBXAggregateTarget "HEREMapsStarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4176FDD21D892F3D373DD120B6006117 /* Debug */,
+				B494361543FC3BF7CB68BAE359AEFA92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
