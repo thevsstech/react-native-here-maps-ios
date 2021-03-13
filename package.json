@@ -2,7 +2,8 @@
   "name": "react-native-here-maps-ios",
   "title": "React Native Here Maps Ios",
   "version": "1.0.0",
-  "description": "",
+  "description": "React native here maps ios",
+  "summary": "React native here maps ios",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,14 +24,14 @@
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "peerDependencies": {
-    
+
     "react": "16.2.0",
     "react-native": "^0.52.0",
     "react-native-windows": "0.52.0"
 
   },
   "devDependencies": {
-    
+
     "react": "16.2.0",
     "react-native": "^0.52.0",
     "react-native-windows": "0.52.0"
